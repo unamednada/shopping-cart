@@ -1,27 +1,17 @@
 {
-  "name": "sd-0x-project-shopping-cart",
-  "version": "1.0.0",
-  "description": "Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀",
-  "main": "script.js",
   "scripts": {
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js",
-    "lint:styles": "stylelint **/*.css --config .stylelintrc.json --ignore-disables --allow-empty-input"
+    "lint:styles": "stylelint **/*.css --config .stylelintrc.json --ignore-disables --allow-empty-input",
+    "start": "npm i && node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/betrybe/sd-0x-block10-project-shopping-cart.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/betrybe/sd-0x-block10-project-shopping-cart/issues"
-  },
-  "homepage": "https://github.com/betrybe/sd-0x-block10-project-shopping-cart#readme",
   "dependencies": {
     "eslint": "6.8.0",
     "eslint-config-trybe-fundamentals": "1.1.0",
     "minimist": "1.2.2",
     "stylelint": "13.8.0",
     "stylelint-config-standard": "20.0.0"
+  },
+  "devDependencies": {
+    "express": "^4.18.1"
   }
 }
