@@ -22,6 +22,8 @@ Projeto incentivado pela Trybe, no módulo de front-end do curso de Desenvolvime
 
 ![Project Gif](./out.gif)
 
+## [Deploy](https://shopping-cart.unamednada.repl.co/)
+
 ### 🗒 PARA RODAR O SHOPPING LOCALMENTE:
 
 1. Clone o repositório
